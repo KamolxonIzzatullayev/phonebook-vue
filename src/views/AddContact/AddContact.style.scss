@@ -1,0 +1,29 @@
+.add {
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.6);
+  width: max-content;
+  padding: 2rem 5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    padding: 0.2rem 0.4rem;
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+  button {
+    background-color: rgb(65, 65, 255);
+    border: none;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+}
